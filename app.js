@@ -78,12 +78,5 @@ prevBtn.addEventListener("click", function() {
 // show random person
 randomBtn.addEventListener("click", function() {
   count = Math.floor(Math.random() * reviews.length);
-  // const randomPerson = reviews[randomNum];
-  // personImg.src = randomPerson.img;
-  // author.textContent = randomPerson.name;
-  // job.textContent = randomPerson.job;
-  // info.textContent = randomPerson.text;
-  // console.log(randomPerson);
-  console.log(count);
   showPerson();
 });
